@@ -8,6 +8,7 @@ app.get('/quote', (req, res) => {
   res.json({
     quote: quotes.getQuote()
   });
+  res.render("main.js");
 });
 
 
